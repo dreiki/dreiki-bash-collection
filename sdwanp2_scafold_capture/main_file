@@ -1,7 +1,5 @@
-show ip interface brief.png
-show ip route vrf 10 summary.png
-show ip route.png
-show sdwan bfd sessions.png
-show sdwan control connections.png
-show sdwan omp peers.png
-show cdp neigbors.png
+1 Capture Before Only LTE,show ip interface brief.png,show ip route vrf 10 summary.png,show ip route.png,show sdwan bfd sessions.png,show sdwan control connections.png,show sdwan omp peers.png
+2 Capture After with WAN migrated,show ip interface brief.png,show ip route vrf 10 summary.png,show ip route.png,show sdwan bfd sessions.png,show sdwan control connections.png,show sdwan omp peers.png
+3 Capture Test LTE off WAN on,show ip interface brief.png,show ip route vrf 10 summary.png,show ip route.png,show sdwan bfd sessions.png,show sdwan control connections.png,show sdwan omp peers.png
+4 Capture Test LTE on WAN off,show ip interface brief.png,show ip route vrf 10 summary.png,show ip route.png,show sdwan bfd sessions.png,show sdwan control connections.png,show sdwan omp peers.png
+5 Capture Final LTE on WAN on,show ip interface brief.png,show ip route vrf 10 summary.png,show ip route.png,show sdwan bfd sessions.png,show sdwan control connections.png,show sdwan omp peers.png,show cdp neigbors.png
