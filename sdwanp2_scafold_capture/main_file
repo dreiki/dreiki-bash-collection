@@ -1,0 +1,7 @@
+show ip interface brief.png
+show ip route vrf 10 summary.png
+show ip route.png
+show sdwan bfd sessions.png
+show sdwan control connections.png
+show sdwan omp peers.png
+show cdp neigbors.png
