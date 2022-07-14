@@ -1,0 +1,20 @@
+PGD-JKT-GLAB-VER
+PING 10.253.252.39 (10.253.252.39) 56(84) bytes of data.
+no answer yet for icmp_seq=1
+no answer yet for icmp_seq=2
+no answer yet for icmp_seq=3
+no answer yet for icmp_seq=4
+
+--- 10.253.252.39 ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4192ms
+
+PGD-JKT-LSP-APP	EXTLB
+PING 10.253.252.155 (10.253.252.155) 56(84) bytes of data.
+no answer yet for icmp_seq=1
+no answer yet for icmp_seq=2
+no answer yet for icmp_seq=3
+no answer yet for icmp_seq=4
+
+--- 10.253.252.155 ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4141ms
+

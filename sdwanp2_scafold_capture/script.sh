@@ -1,11 +1,11 @@
 #!/bin/bash
+# SCRIPT TO SCAFOLD CAPTURE FOLDER SDWAN OR ANY 2 TIER "SUB_FOLDER/FILE_CAPTURE" FILE STRUCTURE
+# USE SINGLE QUOTE FOR PATH PARAMETER CONTAINING WHITESPACE
 
 scafoldcapture () {
-    workingdir="${1:-$(pwd)}"
+    workingdir="${1:-$(pwd)}" # if parameter empty call pwd
     echo "$workingdir"
-    # ls "$workingdir"
-    # workingdir=$(pwd)
-    # echo $workingdir
+
     while IFS="," read -r -a line
     do
         cd "$workingdir"
@@ -23,7 +23,6 @@ scafoldcapture () {
             fi
         done
         echo
-    done < "main_file"
+    done < "main_file" # The csv formated file to be read by the function
 }
 scafoldcapture "$1"
-# scafoldcapture
